@@ -2,6 +2,6 @@
 layout: "default"
 author: "Elaine"
 ---
-<h1>{{layout.title}}</h1>
+<h1>{{ layout.title }}</h1>
 <h3>{{layout.author}}</h3>
 {{ content }}

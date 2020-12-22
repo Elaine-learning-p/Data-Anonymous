@@ -6,14 +6,19 @@
   {% include header.html %}
 </head>
 <body id="page-top" class="politics_version">
-  {% include navigation.html %}
-    Wrapper <br>
-    
+  <div>  
+      {% include navigation.html %}
+  </div>
+    Default Wrapper <br>
+  <div>    
     <main class="{{ page.layout | default: layout.layout }}">
       {{ content }}
     </main>
     
-    <br> Wrapper
+    <br> Default Wrapper
+  </div>
+  <div>  
     {% include footer.html %}
+  </div>   
 </body>
 </html>

@@ -3,13 +3,16 @@
 <head>
 <meta charset="utf-8">
 <title>{{ page.title }} | {{ site.title }}</title>   
-{% include header.html %}
+  {% include header.html %}
 </head>
 <body>
 
     Wrapper <br>
-
+    
+    <main class="{{ page.layout | default: layout.layout }}">
+      {{ content }}
+    </main>
+    
     <br> Wrapper
-{{ content }}
 </body>
 </html>

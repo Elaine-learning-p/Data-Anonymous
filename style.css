@@ -333,7 +333,7 @@ a img.aligncenter {
     border-radius: 0px;
     -webkit-transition: all .5s;
     transition: all .5s;
-    z-index: -1;
+    z-index: 999;
 }
 .navbar-dark .navbar-nav .nav-link.active::after {
 	width: 50%;

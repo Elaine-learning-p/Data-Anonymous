@@ -813,6 +813,7 @@ xclip
     margin: auto;
     display: block;
     text-align: center;
+    height: 50px;
     width: 50%;
     opacity: 0.3;
 }

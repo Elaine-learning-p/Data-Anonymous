@@ -1,6 +1,35 @@
 ---
 layout: "default"
 ---
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }} | {{ site.title }}</title>   
+  {% include header.html %}
+</head>
+<body>
+  {% include navigation.html %}
+  <br>
+  <br> 
+  <br>
+  <br> 
+  <br>
+  <br> 
+  <div class="container">  
+    <h3>Default Wrapper</h3> 
+    
+    <br> 
+      {{ content }}
+
+    
+    <br> Default Wrapper
+  </div>
+  <div>  
+    {% include footer.html %}
+  </div>   
+</body>
+</html>
 <div id="container">
 <h1>this is a post</h1>
 {{ content }}
